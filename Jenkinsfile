@@ -1,6 +1,6 @@
 node {
    stage 'Clean'
-   sh "./gradlew clean"
+   sh "gradlew clean"
    stage 'Build'
-   sh "/.gradlew build"
+   sh "gradlew build"
 }
